@@ -7,7 +7,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score, confusion_matrix
 
 # Load dataset
-df = pd.read_csv(r"C:\Users\pavan\Downloads\project\news_dataset.csv")  # columns: ['title', 'text', 'label']
+df = pd.read_csv("news_dataset.csv") # columns: ['title', 'text', 'label']
 print(df.columns)  # Check what columns you actually have
 
 # Suppose columns are ['text', 'label'] only:
@@ -40,4 +40,5 @@ if st.button('Predict'):
     input_vec = tfidf.transform([input_text])
     prediction = model.predict(input_vec)
     result = 'REAL' if prediction == 1 else 'FAKE'
+
     st.write(f'This news seems to be {result}.')
