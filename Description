@@ -1,0 +1,12 @@
+📰 Fake News Detector — Streamlit Web App
+Overview:
+This interactive web application leverages machine learning to identify fake news articles with high precision. Built using Python and Streamlit, the app allows users to input news content and instantly receive a prediction on its authenticity.
+Key Features:
+- 🧠 ML Model: Trained using scikit-learn with TF-IDF vectorization and logistic regression
+- 💬 User Input: Simple text box for entering news content
+- 🔍 Real-Time Prediction: One-click prediction using a trained classifier
+- 🌐 Hosted on Streamlit Cloud: Accessible via browser with a sleek dark-themed UI
+Tech Stack:
+- Python · scikit-learn · Pandas · NumPy · Streamlit · GitHub
+Use Case:
+Designed to combat misinformation by providing a quick and accessible tool for verifying news credibility. Ideal for educational demos, awareness campaigns, or as a foundation for more advanced NLP applications.
