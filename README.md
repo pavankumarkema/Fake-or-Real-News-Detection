@@ -10,3 +10,4 @@ Tech Stack:
 - Python · scikit-learn · Pandas · NumPy · Streamlit · GitHub
 Use Case:
 Designed to combat misinformation by providing a quick and accessible tool for verifying news credibility. Ideal for educational demos, awareness campaigns, or as a foundation for more advanced NLP applications.
+Live App: https://fake-or-real-news-detection.streamlit.app/
