@@ -11,3 +11,4 @@ Tech Stack:
 Use Case:
 Designed to combat misinformation by providing a quick and accessible tool for verifying news credibility. Ideal for educational demos, awareness campaigns, or as a foundation for more advanced NLP applications.
 Live App: https://fake-or-real-news-detection.streamlit.app/
+<img width="1911" height="1023" alt="Screenshot 2025-10-14 201454" src="https://github.com/user-attachments/assets/37694c3d-8707-4757-bce9-625f47d36068" />
